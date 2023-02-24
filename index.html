@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Importing google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Oswald:wght@700&family=Playfair+Display:ital,wght@0,900;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Linking font-awesome -->
+    <script src="https://kit.fontawesome.com/63c74a41ce.js" crossorigin="anonymous"></script>
+
+    <!-- Importing css -->
+
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>CRL - Final challenge</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container row row--header">
+        <img src="./imgs/logo.svg" alt="Conquering responsive layout logo" class="header__icon" />
+        <div class="hamburger__container">
+          <div class="hamburger__icon"><i class="fa-solid fa-bars"></i></div>
+        </div>
+        <nav class="nav">
+          <ul class="nav__primary">
+            <li class="nav__item"><a href="" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Contact</a></li>
+          </ul>
+          <ul class="nav__secondary">
+            <li class="nav__item"><a href="" class="nav__link">Sign in</a></li>
+            <li class="nav__item btn"><a href="" class="nav__link">Sign up</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="intro">
+        <div class="container">
+          <div class="intro__content row">
+            <h1 class="intro__heading col-2-eq">Responsive layouts <span class="intro__heading--brown">don't have to be a struggle</span></h1>
+            <div class="intro__text col-2-eq">
+              <p class="intro__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              <button class="intro__btn btn">I want to learn</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="properties">
+        <div class="container">
+          <div class="properties__content row">
+            <div class="property col-3-eq">
+              <h3 class="section__subtitle brown">Mobile-first</h3>
+              <p class="property__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="property col-3-eq">
+              <h3 class="section__subtitle brown">Efficient</h3>
+              <p class="property__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="property col-3-eq">
+              <h3 class="section__subtitle brown">Done right</h3>
+              <p class="property__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main-content">
+        <div class="container">
+          <div class="main__content row">
+            <article class="main__content__article col-2-neq-55">
+              <h2 class="section__title brown">It doesn’t have to be so hard</h2>
+              <p class="main__content__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              </p>
+              <img src="./imgs/the-image.jpg" alt="responsive layout created by hand" class="main__content__img" />
+              <p class="main__content__p">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet,
+                consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+              </p>
+            </article>
+            <aside class="main__content__steps col-2-neq-35">
+              <div class="main__content__step">
+                <h3 class="section__subtitle">Break it down</h3>
+                <p class="step__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="main__content__step">
+                <h3 class="section__subtitle">Work your way up</h3>
+                <p class="step__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="main__content__step">
+                <h3 class="section__subtitle">Enjoy the result</h3>
+                <p class="step__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <h2 class="footer__heading">just scratching the surface</h2>
+          <div class="row">
+            <div class="footer__about col-2-eq">
+              <h3 class="footer__subtitle">About our company</h3>
+              <p class="footer__about_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="footer__around-other-more col-2-eq row__footer">
+              <div class="footer__around">
+                <h3 class="footer__subtitle">Getting around</h3>
+                <ul class="footer__list">
+                  <li class="footer__list__item footer__link">Home</li>
+                  <li class="footer__list__item footer__link">About</li>
+                  <li class="footer__list__item footer__link">Contact</li>
+                </ul>
+              </div>
+              <div class="footer__other">
+                <h3 class="footer__subtitle">Other things</h3>
+                <ul class="footer_list">
+                  <li class="footer__list__item footer__link">CSS flexbox</li>
+                  <li class="footer__list__item footer__link">CSS grid</li>
+                  <li class="footer__list__item footer__link">CSS specificity</li>
+                  <li class="footer__list__item footer__link">CSS cascade</li>
+                </ul>
+              </div>
+              <div class="footer__more">
+                <h3 class="footer__subtitle">And more</h3>
+                <ul class="footer_list">
+                  <li class="footer__list__item footer__link">HTML</li>
+                  <li class="footer__list__item footer__link">CSS</li>
+                  <li class="footer__list__item footer__link">Javacript</li>
+                  <li class="footer__list__item footer__link">React</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Importing JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
